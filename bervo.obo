@@ -23479,7 +23479,7 @@ is_a: bervo:BERVO_8000232 ! Concept
 property_value: bervo:BERVO_has_unit "NA" xsd:string
 
 [Term]
-id: bervo:BERVO_8000532
+id: bervo:BERVO_8000559
 name: Azimuth
 def: "The horizontal direction of a line, view, or vector measured clockwise from a reference direction, typically geographic north. Azimuth describes orientation or bearing within a horizontal plane and is commonly reported in degrees." []
 comment: Definition source - Codex CLI (May 4 2026)
@@ -23489,7 +23489,7 @@ is_a: bervo:BERVO_8000255 ! Angle
 property_value: bervo:BERVO_has_unit "degree" xsd:string
 
 [Term]
-id: bervo:BERVO_8000533
+id: bervo:BERVO_8000560
 name: Field of view angle
 def: "The angular extent of the cone or region over which an instrument accepts incoming radiation or observes a scene. Field of view angle describes aperture width rather than the direction the instrument is aimed and is commonly reported in degrees." []
 comment: Definition source - Codex CLI (May 4 2026)
@@ -23499,7 +23499,7 @@ is_a: bervo:BERVO_8000255 ! Angle
 property_value: bervo:BERVO_has_unit "degree" xsd:string
 
 [Term]
-id: bervo:BERVO_8000534
+id: bervo:BERVO_8000561
 name: Scattering correction factor
 def: "A dimensionless correction factor applied during optical canopy or leaf area index processing to adjust gap fraction or transmittance estimates for radiation scattered into the sensor field of view. This factor represents a data-processing correction rather than the physical scattering process itself." []
 comment: Definition source - Codex CLI (May 4 2026)
@@ -23507,7 +23507,7 @@ is_a: bervo:BERVO_8000244 ! Quantitative value
 property_value: bervo:BERVO_has_unit "dimensionless" xsd:string
 
 [Term]
-id: bervo:BERVO_8000535
+id: bervo:BERVO_8000562
 name: Apparent clumping factor
 def: "A dimensionless index describing the apparent non-random spatial aggregation of foliage inferred from canopy optical measurements, commonly calculated as the ratio of effective leaf area index to clumping-corrected or true leaf area index. Values below 1 indicate more clumped foliage relative to a random distribution." []
 comment: Definition source - Codex CLI (May 4 2026)
@@ -23518,7 +23518,7 @@ property_value: bervo:BERVO_Context bervo:BERVO_8000117
 property_value: bervo:BERVO_has_unit "dimensionless" xsd:string
 
 [Term]
-id: bervo:BERVO_8000536
+id: bervo:BERVO_8000563
 name: Quality control flag
 def: "A controlled categorical code assigned to an observation or dataset to indicate a quality-control condition, processing decision, or measurement anomaly relevant to interpretation." []
 comment: Definition source - Codex CLI (May 11 2026)
